@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import { Header, Footer } from './Layouts';
+import Exercises from './Exercises';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Welcome to Material UI</h1>
+        <Header />
+        <Exercises />
+        <Footer />
       </div>
     );
   }
